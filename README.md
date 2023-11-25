@@ -16,7 +16,7 @@
 Нашими киллерфичами является глубокий анализ нейросетью введенной пользователем профессии и присвоение этой профессии оценки, благодаря чему повышается точность оценки кредитоспособности человека.
 
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="block-schema.jpg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="" target="_blank"><img src="block-schema.jpg" width="400" alt="Block Schema"></a></p>
 
 
 Дополнительная реализация в будущем:
