@@ -4,6 +4,27 @@
     <title>Laravel 8 Form Example Tutorial</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+      body{
+        background: #f1f3f8;
+      }
+      .card{
+        background: #f1f3f8;
+      }
+      .card-header p{
+        margin: 0;
+        font-size: 18px;
+        color: #6cb657;
+      }
+      .btn-primary{
+        background-color: #6cb657;
+        border-color: #6cb657;
+      }
+      .btn-primary:hover{
+        background-color: #7ec16b;
+        border-color: #7ec16b;
+      }
+    </style>
 </head>
 <body>
   <div class="container mt-4">
@@ -14,7 +35,7 @@
   @endif -->
   <div class="card">
     <div class="card-header text-center font-weight-bold">
-      Заявка для оформления кредита на юридическое лицо
+      <p>Заявка для оформления кредита на юридическое лицо</p>
     </div>
     <div class="card-body">
       <form name="add-blog-post-form" id="add-blog-post-form" method="post" action="{{url('store-form')}}">
