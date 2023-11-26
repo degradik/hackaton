@@ -9,11 +9,19 @@ class PostController extends Controller
         return view('welcome');
     }
 
+    // public function applications()
+    // {
+    //     $posts = Post::all();
+    //     return view('apps', ['posts' => $posts]);
+    // }
+
     public function applications()
     {
         $posts = Post::all();
         return view('apps', ['posts' => $posts]);
     }
+
+    
 
 
 
