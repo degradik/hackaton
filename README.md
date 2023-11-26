@@ -13,8 +13,6 @@
 
 Понятный пользователям интерфейс и доступность сервиса на всех платформах, нашими киллерфичами является глубокий анализ нейросетью введенной пользователем профессии и присвоение этой профессии оценки, благодаря чему повышается точность оценки кредитоспособности человека.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FPifTiISPNEeohURXO2eR3S%2FUntitled%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DDFNt2N6QiC8tfapB-1" allowfullscreen></iframe>
-
 <p align="center"><a href="" target="_blank"><img src="block-schema.jpg" width="400" alt="Block Schema"></a></p>
 
 
