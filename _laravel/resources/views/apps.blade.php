@@ -63,6 +63,11 @@
             font-size: 18px;
             color: #6cb657;
         }
+        .card-body{
+            display: flex!important;
+            flex-direction: column;
+            align-items: center;
+        }
         .card_style {
             position: relative;
             overflow: hidden;
@@ -117,12 +122,12 @@
                 <div class="card d-inline-block card_style mb-4" id="card_{{$post->id}}">
                     <div class="card-body">
                         <h5 class="card-title">{{$post->occupation}}</h5>
-                        <p class="card-text">{{$post->description}}</p>
+                        <button class="btn-primary">Подробнее</button>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Возраст: {{$post->age}}</li>
                         <li class="list-group-item">Сумма займа: {{$post->num_of_loan}}</li>
-                        <li class="list-group-item">Месяц: {{$post->month}}</li>
+                        <li class="list-group-item">Ежемесечный доход: {{$post->monthly_income}}</li>
                     </ul>
                     <div class="card-body">
                         <div class="row d-flex justify-content-around align-items-center">

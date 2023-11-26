@@ -28,7 +28,7 @@ class PostController extends Controller
     public function store(Request $request)
     {
         $post = new Post;
-        $post->month = $request->month;
+        $post->monthly_income = $request->monthly_income;
         $post->occupation = $request->occupation;
         $post->age = $request->age;
         $post->num_of_loan = $request->num_of_loan;

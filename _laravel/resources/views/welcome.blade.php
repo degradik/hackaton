@@ -46,21 +46,10 @@
           <input type="text" id="month" name="month" class="form-control" required="">
         </div> -->
 
-        <label for="exampleFormControlSelect1">Месяц</label>
-        <select class="form-control" id="month" name="month">
-            <option>Январь</option>
-            <option>Феварль</option>
-            <option>Март</option>
-            <option>Апрель</option>
-            <option>Май</option>
-            <option>Июнь</option>
-            <option>Июль</option>
-            <option>Август</option>
-            <option>Сентябрь</option>
-            <option>Октябрь</option>
-            <option>Ноябрь</option>
-            <option>Декабрь</option>
-        </select>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Ежемесечный доход</label>
+          <input type="number" id="monthly_income" name="monthly_income" class="form-control" required="">
+        </div>
 
         <div class="form-group">
           <label for="exampleInputEmail1">Возраст</label>

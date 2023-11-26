@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
-            $table->string('month');
+            $table->integer('monthly_income');
             $table->integer('age');
             $table->string('occupation');
             $table->integer('num_of_loan');
